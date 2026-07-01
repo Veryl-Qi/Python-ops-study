@@ -1,0 +1,12 @@
+{
+  "timeout": 5,
+  "warning_response_time": 2,
+  "services": ["ssh", "cron"],
+  "apis": [
+    {
+      "name": "Httpbin",
+      "url": "https://httpbin.org/get",
+      "expected_status": 200
+    }
+  ]
+}

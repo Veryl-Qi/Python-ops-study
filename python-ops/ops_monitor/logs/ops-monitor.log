@@ -1,0 +1,74 @@
+2026-07-01 14:46:51 | INFO | ops_monitor.monitor | ops_monitor 开始运行
+2026-07-01 14:46:51 | INFO | ops_monitor.monitor | 当前为 dry-run 模式，不执行真实巡检
+2026-07-01 14:47:21 | INFO | ops_monitor.monitor | ops_monitor 开始运行
+2026-07-01 14:47:21 | INFO | ops_monitor.monitor | 开始采集系统资源指标
+2026-07-01 14:47:22 | INFO | ops_monitor.monitor | 开始检查系统服务: ssh
+2026-07-01 14:47:22 | INFO | ops_monitor.monitor | 服务检查完成: ssh, status=active, level=OK
+2026-07-01 14:47:22 | INFO | ops_monitor.monitor | 开始检查系统服务: cron
+2026-07-01 14:47:22 | INFO | ops_monitor.monitor | 服务检查完成: cron, status=active, level=OK
+2026-07-01 14:47:22 | INFO | ops_monitor.monitor | 开始检查 API: Httpbin, url=https://httpbin.org/get
+2026-07-01 14:47:33 | WARNING | ops_monitor.monitor | API 检查失败: Httpbin, reason=网络请求连接失败：HTTPSConnectionPool(host='httpbin.org', port=443): Read timed out. (read timeout=10)
+2026-07-01 14:47:33 | INFO | ops_monitor.monitor | 巡检报告已生成: /home/qjx/python-ops/ops_monitor/reports/report_20260701_144733.json
+2026-07-01 14:47:33 | INFO | ops_monitor.monitor | ops_monitor 运行结束，overall_level=CRITICAL, exit_code=2
+2026-07-01 15:04:47 | INFO | ops_monitor.monitor | ops_monitor 开始运行
+2026-07-01 15:04:47 | INFO | ops_monitor.monitor | 当前为 dry-run 模式，不执行真实巡检
+2026-07-01 15:08:10 | INFO | ops_monitor.monitor | ops_monitor 开始运行
+2026-07-01 15:08:10 | INFO | ops_monitor.monitor | 开始采集系统资源指标
+2026-07-01 15:08:11 | INFO | ops_monitor.monitor | 开始检查系统服务: ssh
+2026-07-01 15:08:12 | INFO | ops_monitor.monitor | 服务检查完成: ssh, status=active, level=OK
+2026-07-01 15:08:12 | INFO | ops_monitor.monitor | 开始检查系统服务: cron
+2026-07-01 15:08:12 | INFO | ops_monitor.monitor | 服务检查完成: cron, status=active, level=OK
+2026-07-01 15:08:12 | INFO | ops_monitor.monitor | 开始检查 API: Httpbin, url=https://httpbin.org/get
+2026-07-01 15:08:14 | WARNING | ops_monitor.monitor | API 检查失败: Httpbin, reason=HTTP 状态码异常: 实际为 503, 期望为 200
+2026-07-01 15:08:14 | INFO | ops_monitor.monitor | 巡检报告已生成: /home/qjx/python-ops/ops_monitor/reports/report_20260701_150814.json
+2026-07-01 15:08:14 | INFO | ops_monitor.monitor | ops_monitor 运行结束，overall_level=CRITICAL, exit_code=2
+2026-07-01 15:27:44 | INFO | ops_monitor.monitor | ops_monitor 开始运行
+2026-07-01 15:27:44 | INFO | ops_monitor.monitor | 开始采集系统资源指标
+2026-07-01 15:27:45 | INFO | ops_monitor.monitor | 开始检查系统服务: ssh
+2026-07-01 15:27:45 | INFO | ops_monitor.monitor | 服务检查完成: ssh, status=active, level=OK
+2026-07-01 15:27:45 | INFO | ops_monitor.monitor | 开始检查系统服务: cron
+2026-07-01 15:27:45 | INFO | ops_monitor.monitor | 服务检查完成: cron, status=active, level=OK
+2026-07-01 15:27:45 | INFO | ops_monitor.monitor | 开始检查 API: Httpbin, url=https://httpbin.org/get
+2026-07-01 15:27:57 | WARNING | ops_monitor.monitor | API 检查失败: Httpbin, reason=网络请求连接失败：HTTPSConnectionPool(host='httpbin.org', port=443): Read timed out. (read timeout=10)
+2026-07-01 15:27:57 | INFO | ops_monitor.monitor | 巡检报告已生成: /home/qjx/python-ops/ops_monitor/reports/report_20260701_152757.json
+2026-07-01 15:27:57 | INFO | ops_monitor.monitor | ops_monitor 运行结束，overall_level=CRITICAL, exit_code=2
+2026-07-01 15:35:42 | INFO | ops_monitor.monitor | ops_monitor 开始运行
+2026-07-01 15:35:42 | INFO | ops_monitor.monitor | 开始采集系统资源指标
+2026-07-01 15:35:43 | INFO | ops_monitor.monitor | 开始检查系统服务: ssh
+2026-07-01 15:35:43 | INFO | ops_monitor.monitor | 服务检查完成: ssh, status=active, level=OK
+2026-07-01 15:35:43 | INFO | ops_monitor.monitor | 开始检查系统服务: cron
+2026-07-01 15:35:43 | INFO | ops_monitor.monitor | 服务检查完成: cron, status=active, level=OK
+2026-07-01 15:35:43 | INFO | ops_monitor.monitor | 开始检查 API: Httpbin, url=https://httpbin.org/get
+2026-07-01 15:35:45 | WARNING | ops_monitor.monitor | API 检查失败: Httpbin, reason=HTTP 状态码异常: 实际为 503, 期望为 200
+2026-07-01 15:35:45 | INFO | ops_monitor.monitor | 巡检报告已生成: /home/qjx/python-ops/ops_monitor/reports/report_20260701_153545.json
+2026-07-01 15:35:45 | INFO | ops_monitor.monitor | ops_monitor 运行结束，overall_level=CRITICAL, exit_code=2
+2026-07-01 15:40:42 | INFO | ops_monitor.monitor | ops_monitor 开始运行
+2026-07-01 15:40:42 | INFO | ops_monitor.monitor | 开始采集系统资源指标
+2026-07-01 15:40:43 | INFO | ops_monitor.monitor | 开始检查系统服务: ssh
+2026-07-01 15:40:43 | INFO | ops_monitor.monitor | 服务检查完成: ssh, status=active, level=OK
+2026-07-01 15:40:43 | INFO | ops_monitor.monitor | 开始检查系统服务: cron
+2026-07-01 15:40:43 | INFO | ops_monitor.monitor | 服务检查完成: cron, status=active, level=OK
+2026-07-01 15:40:43 | INFO | ops_monitor.monitor | 开始检查 API: Httpbin, url=https://httpbin.org/get
+2026-07-01 15:40:47 | WARNING | ops_monitor.monitor | API 响应较慢: Httpbin, response_time=3.15s
+2026-07-01 15:40:47 | INFO | ops_monitor.monitor | 巡检报告已生成: /home/qjx/python-ops/ops_monitor/reports/report_20260701_154047.json
+2026-07-01 15:40:47 | INFO | ops_monitor.monitor | ops_monitor 运行结束，overall_level=WARNING, exit_code=1
+2026-07-01 15:45:55 | INFO | ops_monitor.monitor | ops_monitor 开始运行
+2026-07-01 15:45:55 | INFO | ops_monitor.monitor | 开始采集系统资源指标
+2026-07-01 15:45:56 | INFO | ops_monitor.monitor | 开始检查系统服务: ssh
+2026-07-01 15:45:56 | INFO | ops_monitor.monitor | 服务检查完成: ssh, status=active, level=OK
+2026-07-01 15:45:56 | INFO | ops_monitor.monitor | 开始检查系统服务: cron
+2026-07-01 15:45:56 | INFO | ops_monitor.monitor | 服务检查完成: cron, status=active, level=OK
+2026-07-01 15:45:56 | INFO | ops_monitor.monitor | 开始检查 API: Httpbin, url=https://httpbin.org/get
+2026-07-01 15:45:58 | WARNING | ops_monitor.monitor | API 检查失败: Httpbin, reason=HTTP 状态码异常: 实际为 503, 期望为 200
+2026-07-01 15:45:58 | INFO | ops_monitor.monitor | 巡检报告已生成: /home/qjx/python-ops/ops_monitor/reports/report_20260701_154558.json
+2026-07-01 15:45:58 | INFO | ops_monitor.monitor | ops_monitor 运行结束，overall_level=CRITICAL, exit_code=2
+2026-07-01 15:58:22 | INFO | ops_monitor.monitor | ops_monitor 开始运行
+2026-07-01 15:58:22 | INFO | ops_monitor.monitor | 开始采集系统资源指标
+2026-07-01 15:58:23 | INFO | ops_monitor.monitor | 开始检查系统服务: ssh
+2026-07-01 15:58:23 | INFO | ops_monitor.monitor | 服务检查完成: ssh, status=active, level=OK
+2026-07-01 15:58:23 | INFO | ops_monitor.monitor | 开始检查系统服务: cron
+2026-07-01 15:58:23 | INFO | ops_monitor.monitor | 服务检查完成: cron, status=active, level=OK
+2026-07-01 15:58:23 | INFO | ops_monitor.monitor | 开始检查 API: Httpbin, url=https://httpbin.org/get
+2026-07-01 15:58:25 | WARNING | ops_monitor.monitor | API 检查失败: Httpbin, reason=HTTP 状态码异常: 实际为 503, 期望为 200
+2026-07-01 15:58:25 | INFO | ops_monitor.monitor | 巡检报告已生成: /home/qjx/python-ops/ops_monitor/reports/report_20260701_155825.json
+2026-07-01 15:58:25 | INFO | ops_monitor.monitor | ops_monitor 运行结束，overall_level=CRITICAL, exit_code=2
