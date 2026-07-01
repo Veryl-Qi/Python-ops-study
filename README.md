@@ -1,4 +1,4 @@
-# Python 自动化运维监控系统 ops_monitor
+# Python 自动化运维监控系统
 
 ## 项目简介
 
